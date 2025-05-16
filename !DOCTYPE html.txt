@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cedar Point</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Cedar Point: The Roller Coaster Capital</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#rides">Rides</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="hero">
+        <img src="hero.jpg" alt="Cedar Point Skyline">
+    </section>
+
+    <section id="about">
+        <h2>Why Cedar Point Matters to Me</h2>
+        <p>From my first ride on the Blue Streak as a kid to the Millennium Force with friends in high school, Cedar Point has shaped my summers. The mix of family tradition and thrilling drops is why I keep going back.</p>
+    </section>
+
+    <section id="rides">
+        <h2>Top Rides</h2>
+        <ul>
+            <li><strong>Millennium Force</strong> – record-breaking gigacoaster.</li>
+            <li><strong>Top Thrill Dragster</strong> – 420-foot launch in two seconds.</li>
+            <li><strong>Blue Streak</strong> – classic wooden coaster full of nostalgia.</li>
+        </ul>
+    </section>
+
+    <section id="gallery">
+        <h2>Gallery</h2>
+        <div class="grid">
+            <img src="ride1.jpg" alt="Millennium Force">
+            <img src="ride2.jpg" alt="Top Thrill Dragster">
+            <img src="ride3.jpg" alt="Blue Streak">
+            <img src="ride4.jpg" alt="Park View">
+        </div>
+    </section>
+
+    <footer id="contact">
+        <p>Made with care by Andrew</p>
+    </footer>
+</body>
+</html>
